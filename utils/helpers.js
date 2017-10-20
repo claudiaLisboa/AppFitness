@@ -53,7 +53,7 @@ export function getMetricMetaInfo (metric) {
             <MaterialCommunityIcons
               name='bike'
               color={white}
-              size={32}
+              size={ 32 }
             />
           </View>
         )
@@ -124,7 +124,6 @@ export function isBetween (num, x, y) {
   if (num >= x && num <= y) {
     return true
   }
-
   return false
 }
 
